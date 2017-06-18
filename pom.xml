@@ -20,6 +20,16 @@
          </properties>
          </profile>
 </profiles>
+         <distributionManagement>
+ <repository>
+                     <id>nexus</id>
+                     <url>http://54.175.157.91:8081/nexus/content/repositories/releases/</url>
+           </repository>
+        <snapshotRepository>
+                 <id>nexus</id>
+                 <url>http://54.175.157.91:8081/nexus/content/repositories/snapshots/</url>
+           </snapshotRepository>
+         </distributionManagement>
   <modules>
     <module>multi-module</module>
     <module>single-module</module>
@@ -30,13 +40,3 @@
   </prerequisites>
 
 </project>
-<distributionManagement>
- <repository>
-                     <id>nexus</id>
-                     <url>http://54.175.157.91:8081/nexus/content/repositories/releases/</url>
-           </repository>
-        <snapshotRepository>
-                 <id>nexus</id>
-                 <url>http://54.175.157.91:8081/nexus/content/repositories/snapshots/</url>
-           </snapshotRepository>
-         </distributionManagement>
