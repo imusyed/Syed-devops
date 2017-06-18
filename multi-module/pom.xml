@@ -27,6 +27,14 @@
       <name>Test Project Site</name>
       <url>file:///tmp/multi-module-site</url>
     </site>
+            <repository>
+                     <id>nexus</id>
+                     <url>http://54.175.157.91:8081/nexus/content/repositories/releases/</url>
+           </repository>
+        <snapshotRepository>
+                 <id>nexus</id>
+                 <url>http://54.175.157.91:8081/nexus/content/repositories/snapshots/</url>
+           </snapshotRepository>
   </distributionManagement>
 
   <build>
